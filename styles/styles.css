@@ -1,0 +1,80 @@
+body{
+    margin: 0;   
+}
+.header{
+    display: flex;
+    height: 120px;
+    align-items: center;
+    background-color: #24282b;
+    justify-content: space-between;
+    border-bottom: 8px solid #1293d4;
+    padding: 0 50px 0 30px;
+
+}
+.lista{
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.titulo{
+    width: 450px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.azul{
+    color: #1293d4;
+}
+.caja1{
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/images/cabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    font-size: 25px;
+}
+.Titulo{
+    font-size: 90px;
+    font-weight: 900;
+    margin: 20px 20px;
+}
+.boletin{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    height: 100px;
+    background-color: #24282b;
+    font-weight: 800;
+    color: white;
+    font-size: 25px;
+}
+.caja2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.obj {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 20px 20px;
+    align-items: center;
+}
+.img {
+    width: 130px;
+    margin: 20px;
+}
