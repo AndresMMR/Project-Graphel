@@ -2,38 +2,49 @@ body{
     margin: 0;   
 }
 .header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    height: 120px;
+    height: 100px;
     align-items: center;
     background-color: #24282b;
     justify-content: space-between;
-    border-bottom: 8px solid #1293d4;
-    padding: 0 50px 0 30px;
-
+    border-bottom: 4px solid #1293d4;
+    padding: 0 50px 0 100px;
 }
 .lista{
-    width: 650px;
+    width: 500px;
     display: flex;
     justify-content: space-around;
     list-style: none;
     align-items: center;
     color: white;
-    font-size: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 800;
 }
 .titulo{
-    width: 450px;
+    width: 350px;
     justify-content: space-around;
     display: flex;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     color: white;
 }
 .azul{
     color: #1293d4;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.INICIO{
+    font-size: 16px;
+    font-weight: 900;
+    color: #1293d4;
+}
 .caja1{
     width: 100%;
-    height: 800px;
+    height: 400px;
     background-image: url(../assets/images/cabecera.jpg);
     background-size: cover;
     background-position: center;
@@ -43,38 +54,74 @@ body{
     justify-content: center;
     color: #fff;
     align-items: center;
-    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .Titulo{
-    font-size: 90px;
+    font-size: 45px;
     font-weight: 900;
     margin: 20px 20px;
 }
+.texto {
+    text-align: center;
+    width: 900px;
+    font-size: 15px;
+}
 .boletin{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 0 0 20px;
+    padding: 0 50px 0 100px;
     height: 100px;
     background-color: #24282b;
-    font-weight: 800;
+    font-weight: 700;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boletin input{
+    border: none;
+    width: 320px;
+    height: 50px;
+}
+.boletin button{
+    width: 140px;
+    height: 50px;
+    background-color: #f15a24;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
 }
 .caja2{
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 350px;
     align-items: center;
     justify-content: center;
 }
 .obj {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 450px;
     margin: 20px 20px;
+    justify-content: space-around;
     align-items: center;
 }
+.text{
+    width: 350px;
+    font-size: 15px;
+}
 .img {
-    width: 130px;
+    width: 90px;
     margin: 20px;
+}
+footer{
+    background-color: #1293d4;
+    color: white;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
